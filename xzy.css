@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-image: url("bkimage.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.box1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+    background-color: red;
+    height: 690px;
+    width: auto;
+    padding: 10px;
+
+
+}
+.boxes{
+    background-color: aqua;
+    height: 100px;
+    width: 100px;
+    margin: 10px;
+    border: 5px solid black;
+    border-radius: 5px;
+}
+.boxes:hover{
+    background-color: plum;
+    transform: scale(1.1);
+}
